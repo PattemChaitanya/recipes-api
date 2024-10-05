@@ -4,16 +4,16 @@
     "author": { "@type": "Person", "name": "John Doe" },
     "title": "Tawa Chicken ",
     "description": "",
-    "prepTime": "1H 30M",
-    "cookTime": "1H 30M",
+    "prepTime": 30,
+    "cookTime": 90,
     "servings": 3,
-    "recipeImage": "https://firebasestorage.googleapis.com/v0/b/riku-staging.appspot.com/o/recipeImages%2Fchicken-curry-2021-08-28-03-11-48-utc_11zon.jpg?alt=media&token=8d4d7cf8-3bc9-49c3-96c6-c7ad28d64bf7",
+    "recipeImage": "https://sinfullyspicy.com/wp-content/uploads/2021/11/Tawa-CHicken-Featured-Image.jpg",
     "recipeIngredients": [
       "0.25 cups, Ghee Cooking",
       "1 Number, Cinnamon Stick Whole",
       "3 Number, Cardamom Whole",
-      "1 Number, Cinnamon Stick Whole",
       "1 teaspoons, Jeera Whole",
+      "1 teaspoons, Cumin Powder Spice",
       "1 Number, Bay Leaf Whole",
       "2 Number, Cloves Whole",
       "2 Number, Red Chilli Whole",
@@ -29,16 +29,12 @@
       "1.5 cups, Water fresh",
       "1 tablespoons, Coriander Chopped",
       "0.25 cups, Oil Cooking",
-      "3 Number, Chilli Chopped",
+      "3 Number, Green Chilli Chopped",
       "1 teaspoons, Coriander Powder ground",
       "1 teaspoons, Garam Masala ground",
       "300 grams, Chicken Thighs fresh",
       "300 grams, Chicken Legs fresh",
-      "3 Number, Onions Chopped",
-      "1 Number, Cinnamon Stick Normal",
-      "3 Number, Cardamom Whole",
-      "1 Number, Bay Leaf Normal",
-      "2 Number, Cloves Whole"
+      "3 Number, Onions Chopped"
     ],
     "recipeInstructions": [
       {
@@ -113,7 +109,7 @@
       },
       {
         "title": "Add Tomato Puree and cook until the gravy base starts to separate oil",
-        "ingredients": ["Tomato Puree", "oil"],
+        "ingredients": ["Tomato Puree"],
         "instructionIndex": 15
       },
       {
@@ -123,12 +119,12 @@
       },
       {
         "title": "Add Coriander Powder",
-        "ingredients": ["Coriander"],
+        "ingredients": ["Coriander Powder"],
         "instructionIndex": 17
       },
       {
         "title": "Add Cumin Powder",
-        "ingredients": [],
+        "ingredients": ["Cumin Powder"],
         "instructionIndex": 18
       },
       {
@@ -153,7 +149,7 @@
       },
       {
         "title": "Cook until the chicken starts to leave its own water",
-        "ingredients": ["water"],
+        "ingredients": [],
         "instructionIndex": 23
       },
       {
@@ -652,44 +648,6 @@
       }
     ]
   },
-  "a2280759-ed41-451d-8649-ba9c4dc60b48": {
-    "id": "a2280759-ed41-451d-8649-ba9c4dc60b48",
-    "author": { "@type": "Person", "name": "John Doe" },
-    "title": "Desi Ghee",
-    "description": "",
-    "prepTime": "10m",
-    "cookTime": 15,
-    "servings": 2,
-    "recipeImage": "https://firebasestorage.googleapis.com/v0/b/riku-staging.appspot.com/o/recipe%2Fglass-of-ghee-butter-2021-08-26-23-07-36-utc.JPG?alt=media&token=6c2ada7b-7076-4cda-9ec2-f70c869868fd",
-    "recipeIngredients": ["2 liter, Milk "],
-    "recipeInstructions": [
-      {
-        "title": "Bring milk to boil, leave it to cool for 4-5 hours.",
-        "ingredients": ["milk"],
-        "instructionIndex": 1
-      },
-      {
-        "title": "This forms a thick layer of cream (malai) over the top, remove this layer and keep aside. The milk can be then used as skimmed milk for any purpose.",
-        "ingredients": ["milk", "milk"],
-        "instructionIndex": 2
-      },
-      {
-        "title": "Keep collecting the layered cream for 5-6 days. Refrigerate the cream collected everyday.",
-        "ingredients": [],
-        "instructionIndex": 3
-      },
-      {
-        "title": "For extracting ghee take the cream collected over a period, add double the quantity of water, mix and whip till a froth floats on top.",
-        "ingredients": [],
-        "instructionIndex": 4
-      },
-      {
-        "title": "Separate the froth and heat it on low flame in a thick bottom saucepan till the fat separates into clarified ghee, strain and store for use.",
-        "ingredients": [],
-        "instructionIndex": 5
-      }
-    ]
-  },
   "1e71a95e-aeb6-4e93-bdbd-ccb6eb1f940b": {
     "id": "1e71a95e-aeb6-4e93-bdbd-ccb6eb1f940b",
     "author": { "@type": "Person", "name": "John Doe" },
@@ -941,58 +899,6 @@
         "ingredients": [],
         "instructionIndex": 3
       }
-    ]
-  },
-  "dac712d8-fc84-4951-9b05-9c119c281353": {
-    "id": "dac712d8-fc84-4951-9b05-9c119c281353",
-    "author": { "@type": "Person", "name": "John Doe" },
-    "title": "2 Bean & Chicken Soup",
-    "description": "",
-    "prepTime": "10m",
-    "cookTime": 40,
-    "servings": 2,
-    "recipeImage": "",
-    "recipeIngredients": [
-      "100 gram, Kidney Beans Boiled",
-      "50 gram, Bean Sprouts ",
-      "100 gram, Tomatoes Roasted",
-      "100 gram, Chicken Diced",
-      "25 gram, Onions Chopped",
-      "10 gram, Garlic Chopped",
-      "20 gram, Celery Chopped",
-      "500 milliliter, Water ",
-      "3 gram, Salt ",
-      "3 gram, Black pepper powder ",
-      "10 gram, Sugar ",
-      "10 gram, Olive oil "
-    ],
-    "recipeInstructions": [
-      {
-        "title": "Blend the Roasted tomatoes into fine Puree.",
-        "ingredients": ["tomatoes"],
-        "instructionIndex": 1
-      },
-      {
-        "title": "In a Pan, Saute the chicken in olive oil add chopped onion, celery, garlic and the tomato puree.",
-        "ingredients": ["chicken", "olive oil", "celery", "garlic"],
-        "instructionIndex": 2
-      },
-      {
-        "title": "Saute well, add the red bean left over water, chicken stock(optional). Season with salt & pepper.",
-        "ingredients": ["water", "chicken", "salt"],
-        "instructionIndex": 3
-      },
-      {
-        "title": "Make a small salad of red beans, bean sprout, salt, pepper and olive oil.",
-        "ingredients": ["salt", "olive oil"],
-        "instructionIndex": 4
-      },
-      {
-        "title": "Pour the soup in a bowl, place the 2 bean salad and drizzle some olive oil.",
-        "ingredients": ["olive oil"],
-        "instructionIndex": 5
-      },
-      { "title": "Serve Hot.", "ingredients": [], "instructionIndex": 6 }
     ]
   },
   "3fe85c5d-c6cb-4965-84d8-c0f723af33f8": {
