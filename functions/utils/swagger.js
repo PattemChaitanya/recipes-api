@@ -9,7 +9,6 @@ const options = {
       description: "API for managing recipes",
       version: "1.0.0",
     },
-    host: "localhost:3099",
     servers: [
       {
         url: "http://localhost:3099/api/v1",
@@ -28,7 +27,6 @@ const options = {
     security: {
       bearerAuth: [],
     },
-    basePath: "/",
     schemes: ["http"],
     consumes: ["application/json"],
     produces: ["application/json"],

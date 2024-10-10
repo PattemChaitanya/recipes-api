@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const { specs, swaggerUi } = require("./swagger");
+const { specs, swaggerUi } = require("./utils/swagger");
 const { restrictedApi, unRestrictedApi } = require("./routes");
 const isLoggedIn = require("./services/authenticator");
 const app = express();
