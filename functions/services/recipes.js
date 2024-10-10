@@ -10,6 +10,7 @@ const {
 } = require("firebase/firestore");
 const { firestore: db } = require("../config/firebase-config");
 const { logger } = require("firebase-functions");
+const recipeScrapping = require("./recipeScrapping");
 
 const log = logger;
 
@@ -151,6 +152,17 @@ const deleteSingleRecipe = async (params, userId) => {
   }
 };
 
+const parseFromRecipeFromUrl = async (params, body) => {
+  try {
+    recipeScrapping({
+      body: "https://www.yummly.com/",
+    });
+  } catch (e) {
+    log.error("error in scrapping data from url", e);
+  }
+};
+
+parseFromRecipeFromUrl();
 module.exports = {
   getAllRecipes,
   getRecipeDetailsById,
