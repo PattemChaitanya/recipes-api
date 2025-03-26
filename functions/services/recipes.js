@@ -14,7 +14,7 @@ const recipeScrapping = require("./recipeScrapping");
 
 const log = logger;
 
-const recipesCollections = "modified-recipes";
+const recipesCollections = "kaggle-recipes";
 
 const getAllRecipes = async () => {
   try {
@@ -152,17 +152,17 @@ const deleteSingleRecipe = async (params, userId) => {
   }
 };
 
-const parseFromRecipeFromUrl = async (params, body) => {
-  try {
-    recipeScrapping({
-      body: "https://www.yummly.com/",
-    });
-  } catch (e) {
-    log.error("error in scrapping data from url", e);
-  }
-};
+// const parseFromRecipeFromUrl = async (params, body) => {
+//   try {
+//     recipeScrapping({
+//       body: "https://www.yummly.com/",
+//     });
+//   } catch (e) {
+//     log.error("error in scrapping data from url", e);
+//   }
+// };
 
-parseFromRecipeFromUrl();
+// parseFromRecipeFromUrl();
 module.exports = {
   getAllRecipes,
   getRecipeDetailsById,

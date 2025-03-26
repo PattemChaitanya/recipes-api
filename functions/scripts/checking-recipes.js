@@ -1,4 +1,4 @@
-const recipes = require("./recipes-id.json");
+const recipes = require("./recipes-id-1.json");
 const fs = require("node:fs");
 const { sendToFirebase } = require("./sentToFirebase");
 
@@ -41,13 +41,15 @@ const checkingRecipes = () => {
   Object.keys(recipes)
     .slice(1)
     .forEach((item) => {
-      // recipesImages[item] = { ...recipes[item], title: newRecipes[item] };
-      sendToFirebase("modified-recipes", item, recipes[item]);
+      // recipesImages[item] = recipes[item];
+      console.log(item);
+      sendToFirebase("kaggle-recipes", item, recipes[item]);
+      console.count("--------------");
     });
 
   // try {
   //   fs.writeFile(
-  //     "scripts/recipes-id.json",
+  //     "scripts/recipes-id-1.json",
   //     JSON.stringify(recipesImages),
   //     function (err) {
   //       if (err) {
